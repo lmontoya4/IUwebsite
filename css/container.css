@@ -1,0 +1,267 @@
+/*order: most general to more specific*/
+
+body{
+    font-family: 'Arimo', sans-serif;
+}
+
+h1{
+    font-family: 'Arimo-Bold', sans-serif;
+    font-size: 70px;
+    text-transform: uppercase;
+    font-weight: 900;
+    display: flex;
+    flex-wrap: wrap;
+    min-height: 10px
+}
+
+
+
+h2{
+    font-family: 'Arimo-Bold', sans-serif;
+    font-size: 60px;
+    text-transform: uppercase;
+    font-weight: 900;
+    display: flex;
+    flex-wrap: wrap;
+    min-height: 10px
+}
+h4{
+    font-family: 'Arimo-Bold', sans-serif;
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: 900;
+    display: flex;
+    flex-wrap: wrap;
+    min-height: 10px
+}
+h5,h3{
+    font-family: 'Arimo-Bold', sans-serif;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+
+/*navigation bar*/
+.logo-pic{
+    width: 100px;
+}
+.container-fluid{
+    height: 700px;
+}
+/***home page**/
+#home-tittle-section{
+    background-color: #113c4a;
+    color:#dddddd;
+     height:800px;
+}
+
+.board-pic{
+    width:100%;
+}
+
+.club-info-row{
+    height:800px;
+}
+
+
+.report-block{
+    position: relative;
+    top:40px;
+    left:20%; 
+    width:300px;
+    height:320px;
+    background-color:#113c4a;
+}
+.table__wrapper iframe {
+   width: 100%;
+   height: 331px;
+}
+ .report-date{
+     position:absolute;
+     bottom: 49px;
+ }
+/*calendar section*/
+#club-info-section{
+    background-color: #dddddd;
+    height: 1000px;
+    color:#dddddd;
+}
+
+
+/**contact section*/
+#contact-section{
+    background-color: black;
+    position: relative;
+    bottom: 50px;
+    height:300px;
+    color: #dddddd;
+}
+.social-media-info{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: flex-start;
+}
+.social-media-icons{
+  margin-right: 20px;
+  height:40px;
+  width: 40px;
+}
+
+/****resouces page**/
+#resouces-tittle{
+    background-color: #3f7b70;
+    height: 1300px;
+    color:#dddddd;
+
+}
+.resouces-left-col{
+    background-color:#3f7b70 ;
+    top: 60px;
+    height: 100%;
+    z-index: 3;
+    left:15px;
+}
+
+.school-pic{
+    position: relative;
+    height:90%;
+    width: 70%;
+    z-index: 3;
+    right:60px;
+}
+
+#accordion-section{
+    position: relative;
+    top: 100px;
+}
+.card-header{
+    background-color: #3f7b70;
+}
+.accordion-tittle{
+    color: #dddddd;
+}
+.accordion-card-body{
+    background-color: #dddddd;
+    text-align: center;
+    
+    
+}
+.sub-text{
+    color:#3f7b70;
+}
+.oncampus-resouces{
+    position: absolute;
+    bottom:20px;
+}
+
+
+/***join page****/
+#join-tittle{
+    background-color: #d7f8f7;
+    height:900px;
+    position: relative;
+}
+
+.join-tittle-heading{/*remember: absolute takes an item out of the flow so yo need to have it inside something relative so it doenst overlap other elements if you chaneg display sizes*/
+    position: relative;
+    top: 40px;
+    color: #27253d;
+}
+.group-pic-box{
+    position: relative;
+    width:80%;
+    height: 78%;
+    top:100px;
+}
+.group-pic{
+    width: 100%;
+    filter: grayscale(100%);
+}
+
+.first-box-text{
+    position: absolute;
+    bottom: 130px;
+    color:#27253d;
+    left:20px;
+}
+
+.join-button{
+    position: absolute;
+    bottom: 50px;
+    left:50%;
+}
+#instruction-section{
+    background-color:#27253d;
+    height:800px;
+}
+.second-box{
+    position: relative;
+    height:600px;
+    width: 80%;
+    color:#d7f8f7;
+    
+}
+.second-box-tittle{/**if you say width:50%, it will be from the amount of pizels the parent has**/
+     position: relative;
+     top:30px;
+     width: 100%;
+}
+.box-tittle{
+    position:absolute;
+    width: 100%;
+    height:100px;
+}
+.second-box-text{
+    position: absolute;
+    top:200px;
+
+}
+
+/***about page**/
+#about-tittle{
+    background-color: #dde0ab;
+    height: 600px;
+    color:#446e5c;
+    
+}
+
+.video-box{
+     position: relative;
+     height: 500px;
+     width:50%;
+     left: 25%;
+}
+.video{
+    position:absolute;
+    width:100%;
+}
+
+#about-card-section{
+    background-color:#446e5c;
+    height:600px;
+}
+.card{
+    border: none;
+}
+.container{
+    position: relative;
+    top: 30px;
+}
+.sub-heading{
+    position: relative;
+    top:20px;
+}
+.card-text{
+    position: relative;
+    top:75px;
+}
+.card-body{
+    background-color:#446e5c;
+    color:#dde0ab;
+    height: 500px;
+
+}
+
+
+
+
